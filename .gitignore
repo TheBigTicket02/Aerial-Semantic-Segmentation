@@ -2,3 +2,5 @@
 *.pkl
 __pycache__/
 .vscode/
+logs/
+wandb/
