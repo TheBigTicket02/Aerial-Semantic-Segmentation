@@ -71,5 +71,5 @@ def prepareTrainIDForDir(gtDirPath, saveDirPath):
             Image.fromarray(trainId).save(trainId_path)
 
 if __name__=='__main__':
-    prepareTrainIDForDir('../input/uavid-semantic-segmentation-dataset/train/train' './trainlabels/')
+    prepareTrainIDForDir('../input/uavid-semantic-segmentation-dataset/train/train', './trainlabels/')
     prepareTrainIDForDir('../input/uavid-semantic-segmentation-dataset/valid/valid', './validlabels/')
